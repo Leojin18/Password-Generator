@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Generate Password</title>
+    <link rel="stylesheet" href="ps.css">
+</head>
+<body style="background:#002339 ; color: beige;">
+    <div class="container">
+        <h1> Generate a <span><br> Random Password</h1></span>
+ 
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8AAACSkpKOjo5gYGC3t7fu7u7r6+u7u7tFRUX8/PwdHR3V1dXZ2dny8vLf39+GhobKyspra2twcHCpqamgoKDBwcFNTU16enqYmJgoKChaWlqwsLBnZ2c1NTX39/cYGBgRERFRUVE+Pj53d3crKysaGhoyMjILCwudnZ3oIuQlAAAFjElEQVR4nO2d52IaOxBGtRAH03cB00wxLrn4/V8wJk5iw4xAiCkm9zu/QauzRWV2YEIQoTFrbgt1ttt5c/h622jJdPocSn27z7Sfxz1Tv3XTVnDHw7BjaHhvL7ijWVkJLnwEd45G1/HFzbAophbPY9dR8O15NLhVR66GRVFTN7xzNiwG2tOju2HRVFa88RZUV+x5+70x0VVcevu9MVA17Hvr7ZipKnrPF7/QnRe/gmJ7rarY/eYtWBSlquHbFnhR06ccro4odpUVrejU2hHDpnfX5LiJXEmz/aI+rRlrOPHulyQdNu5lGdhQpzFnDJ+9eyVKgzH8YRuB06ZiFMfenZKFGW6m3n2SpfUfMZw7RMM1YcKYDe8+CbMhhrfeXRKmTgx1t4n2dIih7l7fAWK48u6RNHQ09e6RNIN/3pC+mRVotF+Nb3UYV51z15V0ML1QbjSM7a/FmMyqM9YloobdktuvqDC4Tb2WcoatxcRK7xebsm9rOFK/OSnD73aGldntuU/99AMpYtijc44V7ZPBMwnDyuEG/aCub+j9gndy/G3E5YbPDlL7tI8OqhcbDh2UDtkcU7zU0G+M+cz2iOKFhlMHHZb4CucyQ+9B5oNVdGK8yJALuHox1DBcu86DhywUDL/GKPOXSBz0AsOxg8Ux7sUN4/focjbuNjToV6MjW1B+iZpvGEsfedSOKfdjOfFP7MezDVsb9igmSce9iCN7brMN+cxtq4h5h02rZl/SZxuyvy6wy3RYsyETLl0m15C+DngjLXAiBPf7Bu7tZ64h9yTY5qq0uLuI+VyuITNmv4oKnIbLQ2BOcqYhky9qn1DFzFdMal6mIdO4QyoOzexq0w9lGtIl6aNw71Ng1o00gpppuCFfc0lToXld9EHMNKQnT7rzSdDe0z1UniEdaJbivU+BbsHpUJNnSFu2nire+Z5wpvMMb8m3fLLF1uQlPR3w8gzpr3xMF2wfPB72g87KUoZOqVRkcapnmPImTwHyCwcYwvAPMDQDhgGGMWBoBgwDDGPA0AwYBhjGgKEZMAwwjAFDM2AYYBgDhmbAMMAwBgzNgGGAYQwYmgHDAMMYMDQDhgGGMWBoBgwDDGPA0AwYBhjGgKEZMAwwjAFDM2AYYBgDhmbAMMAwBgzNgGGAYQwYmgHDAMMYMDQDhgGGMWBoBgwDDGPA0AwYBhjGgKEZMAwwjAFDM2AYYBgDhmbAMMAwBgzNgGGAYQwYmgHD8H8wJFW35ikNX5Mh+e9xproA5ZoMw2E1k6S/rb4qw4O/V4+WL9vjqgz3x5p5Wh3h6zL8XDJmlVgo+coMw/h3TZpNLbXhazMMoTubTstxetXy6zM8FxiaAcNsYGgGDLOBoRkwzAaGZsAwm2uq95QHrUrmUN9xB6lFyhbMzYCWVoxVNtel9+OwH5Hi3GdDa+XWhVo+D1psNS3OlNMyXxNbG1pYWqyoNGm5SA8QCLIk3RAre06ruHqUeOzRE83Vrc6Cvu54aEm1fUkv5Mqh0umiuBNrPBXmEkpNFiGsaeP2kz4tSix5mpnK5nLnLw06kIoWC2XKVrO12/Xg6tdLzllcYXPTab/LdUB0LBhyRxiYDajMUFcI73C4m6QoXmxW4L0pe3Thx4SU4n3nWb8y8Hr0wB9b+NDsg7CjeaO6Ha7KTeTAz9KHYp/E3zxO6zUFyuX8yEHX0oa07LcvI2lBfsr1Qyp+sQfdvDiismhstb21PhDbGO5D8o3cSE5BOJfq9LFNkArPMNComwcDPcGvcRXFp/p9+AWqJepbmsaTr6BFMLo83Q01nvRX+jsqGl00QiwCfIoWyTU2YWlzAd9Z18z97sXCv6mOi8N8Y03mpeX1+0v/lYkyKrAqK/HNYDLr7qL+bdXeqphtNy+T6d0ZaaKJ/AS7D2uyHLPlUAAAAABJRU5ErkJggg==" onclick="copyPassword()" width="40px">
+        </div>   
+        <div class="container2"> 
+            <h1>Generate Password</h1>
+            <button onclick="randomPassword()"><p> → </p></button>
+        </div>
+    </div>
+    <script>
+        const passwordBox = document.getElementById("password");
+        const length = 8;
+        const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const lowerCase = "abcdefghijklmnopqrstuvwxyz";
+        const number = "0123456789";
+        const symbol = "~`!@#$%^&*()_-+={[}]|:;'\"<,>.?/";
+        const allChars = upperCase + lowerCase + number + symbol;
+
+        function randomPassword() {
+            let password = " ";
+            password += upperCase[Math.floor(Math.random() * upperCase.length)];
+            password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
+            password += number[Math.floor(Math.random() * number.length)];
+            password += symbol[Math.floor(Math.random() * symbol.length)];
+
+            while (length > password.length) {
+                password += allChars[Math.floor(Math.random() * allChars.length)];
+            }
+            passwordBox.value = password;
+        }
+
+ function copyPassword() {
+            passwordBox.select();
+            document.execCommand("copy");
+            document.getSelection().removeAllRanges(); // Deselect the text
+        }
+    </script>
+</body>
+</html>
